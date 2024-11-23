@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <video class="background-video" autoplay muted loop>
+        <source src="img/2611250-uhd_3840_2160_30fps.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+  <div class="wrapper">
+    <!-- Header -->
+    <header>
+        <nav>
+          <a href="#" class="logo">Abdelkouddous</a>
+          <div class="menu-toggle" onclick="toggleMenu()"></div>
+          <ul id="nav-menu">
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      
+
+    <!-- Home Section -->
+    <section class="home">
+      <div class="home-content">
+        <img src="img/DSC_6771.JPG" alt="Profile Picture">
+        <h1>Hi, I'm Abdelkouddous El Alami</h1>
+        <p>Full-Stack Developer | Web & Mobile Development Enthusiast</p>
+        <p>I specialize in creating dynamic, user-friendly websites and applications.</p>
+        <button class="cta-button">Let's Connect</button>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <h2>About Me</h2>
+      <p>I’m a full-stack developer with expertise in HTML, CSS, JavaScript, React, Laravel, PHP, and Java. Currently studying at Youcode to enhance my skills further.</p>
+      <h3>Education</h3>
+      <p>Bachelor’s degree from University of Sidi Mohamed Ben Abdellah, Fes. Now studying at Youcode.</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+      <h2>Projects</h2>
+      <div class="project-cards">
+        <div class="project-card">
+          <h3>CinéFlix</h3>
+          <p>A movie review platform with interactive features like a carousel and real-time search.</p>
+          <a href="#">View Project</a>
+        </div>
+        <div class="project-card">
+          <h3>Quiz App</h3>
+          <p>An interactive quiz app with real-time feedback and multiple question formats.</p>
+          <a href="#">View Project</a>
+        </div>
+        <div class="project-card">
+          <h3>ArtisanCraft Marketplace</h3>
+          <p>A responsive e-commerce platform with filtering and shopping cart functionalities.</p>
+          <a href="#">View Project</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <h2>Contact</h2>
+      <form>
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2024 Abdelkouddous El Alami. All Rights Reserved.</p>
+    </footer>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
