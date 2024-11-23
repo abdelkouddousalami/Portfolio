@@ -1,4 +1,4 @@
-// Scroll-based Animation Trigger
+
 document.addEventListener("scroll", () => {
     const sections = document.querySelectorAll(".about, .projects, .contact");
     sections.forEach(section => {
@@ -16,16 +16,8 @@ document.addEventListener("scroll", () => {
     );
   }
   
-  // Background animation
-  let hue = 0;
-  function animateBackground() {
-    hue += 0.5;
-    document.body.style.backgroundColor = `hsl(${hue}, 70%, 15%)`;
-    requestAnimationFrame(animateBackground);
-  }
   
-  animateBackground();
-  
+
   function toggleMenu() {
     const navMenu = document.getElementById('nav-menu');
     navMenu.classList.toggle('show');
