@@ -7,17 +7,6 @@ document.addEventListener("scroll", () => {
       }
     });
   });
-  
-  function isInViewport(el) {
-    const rect = el.getBoundingClientRect();
-    return (
-      rect.top <= (window.innerHeight || document.documentElement.clientHeight) &&
-      rect.bottom >= 0
-    );
-  }
-  
-  
-
   function toggleMenu() {
     const navMenu = document.getElementById('nav-menu');
     navMenu.classList.toggle('show');
